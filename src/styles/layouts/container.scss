@@ -1,0 +1,28 @@
+.game-wrapper{
+    height: 100vh;
+    width: 100vw;
+    background-color: $dark-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-pane{
+    width: 30%;
+    height:100vh;
+    background:$pink-light;
+    display: flex;
+    align-items: flex-end;
+}
+.right-pane{
+    flex:1;
+    color: white;
+}
+body {
+    overflow: hidden; /* Hide scrollbars */
+  }
+
+.message{
+    font-size: 20px;
+    font-family: 'Mochiy Pop P One' sans-serif;
+}
